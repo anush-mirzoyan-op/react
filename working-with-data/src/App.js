@@ -13,8 +13,8 @@ import getData from './getData';
   workingWithData()
   return (
     <div>
-      {console.log("returni mej enq",data)}
-      datafg = {data}
+      {console.log("returni mej enq",data , data[0])}
+      {data[0].id}
     </div>
   );
 }
