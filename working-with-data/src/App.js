@@ -14,7 +14,9 @@ import getData from './getData';
   return (
     <div>
       {console.log("returni mej enq",data , data[0])}
-      {data[0].id}
+      user name = {data[0].username}
+      <br></br>
+      posts = {data[0].company.catchPhrase}
     </div>
   );
 }
