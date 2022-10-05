@@ -13,13 +13,15 @@ function App() {
     })();
   }, []);
 
+  let userId = +prompt()
+
   return (
     <div className="main-div">
       <div className="navbar">
         User Infromation
         </div>
       <div className="card">
-        user name = {data.length && data[0].username}
+        user name = {data.length && data[userId].username}
         <br></br>
         posts = {data.length && data[0].company.catchPhrase}
       </div>
