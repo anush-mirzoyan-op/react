@@ -13,15 +13,19 @@ function App() {
     })();
   }, []);
 
-  let userId = +prompt()
-
+  let userId = 5;
+  const inputValue = +document.getElementsByClassName(".domTextElement")
+console.log(inputValue)
   return (
     <div className="main-div">
-      <div className="navbar">
-        User Infromation
-        </div>
+      <div>
+        <label for="domTextElement">Enter user id </label>
+        <input type="text" className="domTextElement" />
+      </div>
+
+      <div className="navbar">User Infromation</div>
       <div className="card">
-        user name = {data.length && data[userId].username}
+        user naaame = {data.length && data[inputValue]?.username}
         <br></br>
         posts = {data.length && data[0].company.catchPhrase}
       </div>
