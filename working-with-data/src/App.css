@@ -1,5 +1,38 @@
 .App {
   text-align: center;
-  background-color: aqua;
 }
 
+.navbar {
+  width: 30%;
+  height: 50px;
+  margin: auto;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 10px;
+
+}
+
+.card {
+  width: 100%;
+  border-radius: 10px;
+
+}
+
+.main-div {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  border-radius: 10px;
+  background-color: #898F9C;
+
+
+}
+
+body {
+  background-color: #4267b2;
+  align-items: center;
+  padding: 100px;
+}
